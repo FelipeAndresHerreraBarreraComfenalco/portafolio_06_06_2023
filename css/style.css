@@ -85,7 +85,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('imgenes/about.jpg') no-repeat;
+    background: url('../imgenes/about.jpg') no-repeat;
     background-size: 40%;
     background-position: right;
 }
