@@ -69,7 +69,7 @@
         ]
       }
     },
-    "education":{
+    "education": {
         "titulo": ["My", "Journey"],
 
         "education": [
@@ -77,21 +77,21 @@
             "nombre": "Education"
         },
         {   "año": "2017 - 2018",
-            "institucion": "Master Degree - University",
+            "institucion": "Master Degree",
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
         },
         {   
-            "año": "2017 - 2018",
-            "institucion": "Master Degree - University",
+            "año": "2018 - 2019",
+            "institucion": "Master - University",
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
         },
         {   
-            "año": "2017 - 2018",
+            "año": "2019 - 2020",
             "institucion": "Master Degree - University",
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
         }
 
-    ],
+        ],
 
         "experience": [
         {
@@ -99,20 +99,68 @@
         },
         {
             "año": "2017 - 2018",
-            "empresa": "Web Developer - Company",
+            "empresa": "Web Developer",
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
         },
         {   
-            "año": "2017 - 2018",
-            "empresa": "Web Developer - Company",
+            "año": "2018 - 2019",
+            "empresa": "Developer - Company",
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
         },
         {   
-            "año": "2017 - 2018",
+            "año": "2019 - 2020",
             "empresa": "Web Developer - Company",
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
         }
     ]
+    },
+    "skills": {
+        "titulo": ["My", "Skills"],
 
+        "coding_skills": [
+        {
+            "nombre": "Coding Skills"
+        },
+        {
+            "lenguage": "HTML",
+            "porcent": "90%"
+        },
+        {
+            "lenguage": "CSS",
+            "porcent": "80%"
+        },
+        {
+            "lenguage": "JavaScript", 
+            "porcent": "65%"
+        },
+        {
+            "lenguage": "Python", 
+            "porcent": "75%"
+        }
+
+        ],
+
+        "professional_skills": [
+        {
+            "nombre": "Professional Skills"
+        },
+        {
+            "skill": "Web Desing", 
+            "porcent": "95%"
+        },
+        {
+            "skill": "Web Development", 
+            "porcent":"67%"
+        },
+        {
+            "skill": "Graphic Desing", 
+            "porcent":"85%"
+        },
+        {
+            "skill": "SEO Marketing", 
+            "porcent":"60%"
+        }
+  
+        ]
     }
   }
