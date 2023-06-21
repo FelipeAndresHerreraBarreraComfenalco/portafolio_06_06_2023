@@ -1,57 +1,118 @@
 {
-    "nombre": "FELIPE",
-    "menu": [
+    "home": {
+      "nombre": "FELIPE",
+      "menu": [
         {
-            "nombre": "HOME",
-            "link": "#home"
+          "nombre": "HOME",
+          "link": "#home"
         },
         {
-            "nombre": "About",
-            "link": "#about"
+          "nombre": "About",
+          "link": "#about"
         },
         {
-            "nombre": "Education",
-            "link": "#education"
+          "nombre": "Education",
+          "link": "#education"
         },
         {
-            "nombre": "Skills",
-            "link": "#skills"
+          "nombre": "Skills",
+          "link": "#skills"
         },
         {
-            "nombre": "Contact",
-            "link": "#contact"
+          "nombre": "Contact",
+          "link": "#contact"
         }
-    ],
-    "parrafo": {
+      ],
+      "parrafo": {
         "titulo": [
-            "Hi I'm,",
-            "Felipe Herrera"
+          "Hi I'm,",
+          "Felipe Herrera"
         ],
         "subtitulo": "Frontend Developer",
         "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, cumque! Asperiores maxime totam esse fugit nisi, minus adipisci non, autem sint perferendis corrupti, rem porro quae consectetur!.",
         "botones": [
-            {
-                "nombre": "Hire Me",
-                "link": "#"
-            },
-            {
-                "nombre": "Let's talk",
-                "link": "#"
-            }
+          {
+            "nombre": "Hire Me",
+            "link": "#"
+          },
+          {
+            "nombre": "Let's talk",
+            "link": "#"
+          }
         ],
         "redes": [
-            {
-                "nombre": "bx bxl-facebook",
-                "link": "#"
-            },
-            {
-                "nombre": "bx bxl-twitter",
-                "link": "#"
-            },
-            {
-                "nombre": "bx bxl-linkedin",
-                "link": "#"
-            }
+          {
+            "nombre": "bx bxl-facebook",
+            "link": "#"
+          },
+          {
+            "nombre": "bx bxl-twitter",
+            "link": "#"
+          },
+          {
+            "nombre": "bx bxl-linkedin",
+            "link": "#"
+          }
         ]
+      }
+    },
+    "about": {
+      "parrafo": {
+        "titulo": ["About", "Me"],
+        "subtitulo": "Frontend Developer!",
+        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam a omnis iste velit eaque architecto placeat obcaecati fugit eius molestiae ipsa vitae, iusto repudiandae numquam exercitationem porro optio. Iure facilis sit voluptates saepe! Eveniet, quidem. Veniam doloremque a in maxime earum repellendus. Alias veniam iste exercitationem enim incidunt nisi perferendis.",
+        "boton": [
+          {
+            "nombre": "Read More",
+            "link": "#"
+          }
+        ]
+      }
+    },
+    "education":{
+        "titulo": ["My", "Journey"],
+
+        "education": [
+        {
+            "nombre": "Education"
+        },
+        {   "año": "2017 - 2018",
+            "institucion": "Master Degree - University",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        },
+        {   
+            "año": "2017 - 2018",
+            "institucion": "Master Degree - University",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        },
+        {   
+            "año": "2017 - 2018",
+            "institucion": "Master Degree - University",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        }
+
+    ],
+
+        "experience": [
+        {
+            "nombre": "Experience"
+        },
+        {
+            "año": "2017 - 2018",
+            "empresa": "Web Developer - Company",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        },
+        {   
+            "año": "2017 - 2018",
+            "empresa": "Web Developer - Company",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        },
+        {   
+            "año": "2017 - 2018",
+            "empresa": "Web Developer - Company",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        }
+    ]
+
     }
-}
+  }
