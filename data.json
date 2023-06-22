@@ -162,5 +162,17 @@
         }
   
         ]
+    },
+    "contact": {
+        "titulo": ["Contact", "Me!"],
+        "campo1": "Full Name",
+        "campo2": "Email Address",
+        "campo3": "Mobile Number",
+        "campo4": "Email Subject",
+        "campo5": "Your Message",
+        "boton": "Submit"  
+      },
+    "pie_de_pagina": {
+        "texto": "Copyright &copy; 2023 by Codehal | All Rights Reserved"
     }
   }

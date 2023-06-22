@@ -172,4 +172,50 @@ addEventListener("DOMContentLoaded", async(e)=> {
             <span class="animate scroll" style="--i:6;"></span>
         </div>
     `);
+
+    document.querySelector(".contact").insertAdjacentHTML("afterbegin", /*html*/`
+        <h2 class="heading">${data.contact.titulo[0]} <span>${data.contact.titulo[1]} </span><span class="animate scroll" style="--i:1;"></span></h2>
+        
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="${data.contact.campo1}" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="${data.contact.campo2}" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="${data.contact.campo3}" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="${data.contact.campo4}" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="${data.contact.campo5}" required></textarea>
+                <span class="focus"></span>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">${data.contact.boton}</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    `);
+
+    document.querySelector(".footer-text").insertAdjacentHTML("afterbegin", /*html*/`
+        <p>${data.pie_de_pagina.texto}</p>
+    `);
 })
