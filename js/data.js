@@ -174,7 +174,7 @@ addEventListener("DOMContentLoaded", async(e)=> {
     `);
 
     document.querySelector(".contact").insertAdjacentHTML("afterbegin", /*html*/`
-        <h2 class="heading">${data.contact.titulo[0]} <span>${data.contact.titulo[1]} </span><span class="animate scroll" style="--i:1;"></span></h2>
+        <h2 class="heading">${data.contact.titulo[0]} <span></span><span class="animate scroll" style="--i:1;"></span></h2>
         
         <form action="#">
             <div class="input-box">

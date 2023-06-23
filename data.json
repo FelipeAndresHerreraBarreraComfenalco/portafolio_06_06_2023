@@ -1,42 +1,42 @@
 {
     "home": {
-      "nombre": "FELIPE",
+      "nombre": "Felipe",
       "menu": [
         {
-          "nombre": "HOME",
+          "nombre": "Inicio",
           "link": "#home"
         },
         {
-          "nombre": "About",
+          "nombre": "Sobre mi",
           "link": "#about"
         },
         {
-          "nombre": "Education",
+          "nombre": "Educación",
           "link": "#education"
         },
         {
-          "nombre": "Skills",
+          "nombre": "Habilidades",
           "link": "#skills"
         },
         {
-          "nombre": "Contact",
+          "nombre": "Contacto",
           "link": "#contact"
         }
       ],
       "parrafo": {
         "titulo": [
-          "Hi I'm,",
+          "Hola soy,",
           "Felipe Herrera"
         ],
         "subtitulo": "Frontend Developer",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, cumque! Asperiores maxime totam esse fugit nisi, minus adipisci non, autem sint perferendis corrupti, rem porro quae consectetur!.",
+        "descripcion": "Desarrollador de software, soy una persona proactiva, responsable con ganas de aprender y crecer profesionalmente. Tengo habilidades de comunicación, trabajo en equipo y adaptación al cambio. Me interesa desarrollarme en diferentes áreas y sectores, estoy dispuesto a asumir nuevas responsabilidades.",
         "botones": [
           {
-            "nombre": "Hire Me",
+            "nombre": "Contrátame",
             "link": "#"
           },
           {
-            "nombre": "Let's talk",
+            "nombre": "Hablemos",
             "link": "#"
           }
         ],
@@ -58,68 +58,68 @@
     },
     "about": {
       "parrafo": {
-        "titulo": ["About", "Me"],
-        "subtitulo": "Frontend Developer!",
-        "descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam a omnis iste velit eaque architecto placeat obcaecati fugit eius molestiae ipsa vitae, iusto repudiandae numquam exercitationem porro optio. Iure facilis sit voluptates saepe! Eveniet, quidem. Veniam doloremque a in maxime earum repellendus. Alias veniam iste exercitationem enim incidunt nisi perferendis.",
+        "titulo": ["Sobre", "Mi"],
+        "subtitulo": "Desarrollador Frontend!",
+        "descripcion": "Soy un apasionado desarrollador frontend con experiencia en la creación de experiencias web interactivas y atractivas. Me enfoco en el diseño, la usabilidad y la calidad del código para desarrollar interfaces intuitivas y estéticamente agradables. Constantemente actualizo mis conocimientos en tecnologías como HTML5, CSS3, JavaScript y frameworks como React y Angular. Valorando la colaboración y la comunicación efectiva, disfruto trabajar en equipos multidisciplinarios para encontrar soluciones creativas a desafíos nuevos. Si buscas un desarrollador frontend comprometido, creativo y orientado a resultados, ¡estaré encantado de formar parte de tu próximo proyecto!",
         "boton": [
           {
-            "nombre": "Read More",
+            "nombre": "Seguir leyendo",
             "link": "#"
           }
         ]
       }
     },
     "education": {
-        "titulo": ["My", "Journey"],
+        "titulo": ["Mi", "Camino"],
 
         "education": [
         {
-            "nombre": "Education"
+            "nombre": "Educación"
         },
-        {   "año": "2017 - 2018",
-            "institucion": "Master Degree",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
-        },
-        {   
-            "año": "2018 - 2019",
-            "institucion": "Master - University",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+        {   "año": "2020 - 2021",
+            "institucion": "ADSO - SENA",
+            "descripcion": "Tecnólogo de análisis y desarrollo de software, adquiriendo habilidades para diseñar, desarrollar y gestionar soluciones de software eficientes. Aprendí técnicas de análisis, diseño y programación."
         },
         {   
-            "año": "2019 - 2020",
-            "institucion": "Master Degree - University",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+            "año": "2021 - 2022",
+            "institucion": "Curso HTML - EDteam",
+            "descripcion": "Completé un curso de HTML, obteniendo conocimientos en desarrollo web. Ahora puedo crear y optimizar código HTML efectivamente para en proyectos web."
+        },
+        {   
+            "año": "2022 - 2023",
+            "institucion": "Diplomado JavaScript - UNC",
+            "descripcion": "Curso de JavaScript, adquiriendo conocimientos en programación web. Puedo desarrollar aplicaciones interactivas y funcionales utilizando JavaScript de manera efectiva en proyectos dinámicos en la web."
         }
 
         ],
 
         "experience": [
         {
-            "nombre": "Experience"
+            "nombre": "Experiencia"
         },
         {
-            "año": "2017 - 2018",
-            "empresa": "Web Developer",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+            "año": "2020 - 2021",
+            "empresa": "Analista de Software",
+            "descripcion": "Trabaje como analista de software, participando en el análisis de requerimientos, diseño de arquitecturas y especificación de funcionalidades para el desarrollo de aplicaciones."
         },
         {   
-            "año": "2018 - 2019",
-            "empresa": "Developer - Company",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+            "año": "2021 - 2022",
+            "empresa": "Desarrollador Full Stack",
+            "descripcion": "Trabaje como desarrollador Full Stack, encargándome tanto del desarrollo del frontend como del backend de aplicaciones web, utilizando diferentes tecnologías y lenguajes de programación."
         },
         {   
-            "año": "2019 - 2020",
-            "empresa": "Web Developer - Company",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor impedit nobis nesciunt ducimus pariatur tempora quis facere maxime corporis."
+            "año": "2022 - 2023",
+            "empresa": "Desarrollador Frontend",
+            "descripcion": "Me desempeñe como desarrollador frontend, creando y mejorando interfaces de usuario interactivas utilizando tecnologías web como HTML, CSS y JavaScript."
         }
     ]
     },
     "skills": {
-        "titulo": ["My", "Skills"],
+        "titulo": ["Mis", "Habilidades"],
 
         "coding_skills": [
         {
-            "nombre": "Coding Skills"
+            "nombre": "Habilidades de programación"
         },
         {
             "lenguage": "HTML",
@@ -142,37 +142,37 @@
 
         "professional_skills": [
         {
-            "nombre": "Professional Skills"
+            "nombre": "Habilidades profesionales"
         },
         {
-            "skill": "Web Desing", 
+            "skill": "Diseño Web", 
             "porcent": "95%"
         },
         {
-            "skill": "Web Development", 
+            "skill": "Desarrollador Web", 
             "porcent":"67%"
         },
         {
-            "skill": "Graphic Desing", 
+            "skill": "Analista de Software", 
             "porcent":"85%"
         },
         {
-            "skill": "SEO Marketing", 
+            "skill": "Diseño Grafico", 
             "porcent":"60%"
         }
   
         ]
     },
     "contact": {
-        "titulo": ["Contact", "Me!"],
-        "campo1": "Full Name",
-        "campo2": "Email Address",
-        "campo3": "Mobile Number",
-        "campo4": "Email Subject",
-        "campo5": "Your Message",
-        "boton": "Submit"  
-      },
+        "titulo": ["Contáctame"],
+        "campo1": "Nombre Completo",
+        "campo2": "Correo Electrónico",
+        "campo3": "Número De Contacto",
+        "campo4": "Asunto Del Correo",
+        "campo5": "Tu Mensaje",
+        "boton": "Enviar"  
+    },
     "pie_de_pagina": {
-        "texto": "Copyright &copy; 2023 by Codehal | All Rights Reserved"
+        "texto": "Derechos de autor &copy; 2023 por Codehal | Todos los derechos reservados"
     }
   }
