@@ -7,6 +7,7 @@ addEventListener("DOMContentLoaded", async(e)=> {
         <a href="${data.home.menu[2].link}">${data.home.menu[2].nombre}</a>
         <a href="${data.home.menu[3].link}">${data.home.menu[3].nombre}</a>
         <a href="${data.home.menu[4].link}">${data.home.menu[4].nombre}</a>
+        <a href="${data.home.menu[5].link}">${data.home.menu[5].nombre}</a>
     `);
 
     document.querySelector(".home-content").insertAdjacentHTML("afterbegin", /*html*/`
@@ -176,14 +177,14 @@ addEventListener("DOMContentLoaded", async(e)=> {
     document.querySelector(".contact").insertAdjacentHTML("afterbegin", /*html*/`
         <h2 class="heading">${data.contact.titulo[0]} <span></span><span class="animate scroll" style="--i:1;"></span></h2>
         
-        <form action="#">
+        <form id="myForm" action="#">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="${data.contact.campo1}" required>
+                    <input name="nombre" type="text" placeholder="${data.contact.campo1}" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="${data.contact.campo2}" required>
+                    <input name="correo" type="text" placeholder="${data.contact.campo2}" required>
                     <span class="focus"></span>
                 </div>
                 <span class="animate scroll" style="--i:3;"></span>
@@ -191,18 +192,18 @@ addEventListener("DOMContentLoaded", async(e)=> {
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="${data.contact.campo3}" required>
+                    <input name="telefono" type="number" placeholder="${data.contact.campo3}" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="${data.contact.campo4}" required>
+                    <input name="asunto" type="text" placeholder="${data.contact.campo4}" required>
                     <span class="focus"></span>
                 </div>
                 <span class="animate scroll" style="--i:5;"></span>
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="${data.contact.campo5}" required></textarea>
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="${data.contact.campo5}" required></textarea>
                 <span class="focus"></span>
                 <span class="animate scroll" style="--i:7;"></span>
             </div>
@@ -218,4 +219,29 @@ addEventListener("DOMContentLoaded", async(e)=> {
     document.querySelector(".footer-text").insertAdjacentHTML("afterbegin", /*html*/`
         <p>${data.pie_de_pagina.texto}</p>
     `);
+
+    // https://6497003b83d4c69925a34f7c.mockapi.io/contactame
+
+    let formulario = document.querySelector("#myForm");
+
+    formulario.addEventListener("submit", async(e)=>{
+        e.preventDefault();
+        let data = Object.fromEntries(new FormData(e.target));
+        let confgi = {
+            method:"POST",
+            headers: {"Content-Type": "application/json"},
+            body:JSON.stringify(data)
+        };
+        let conexion = await (await fetch("https://6497003b83d4c69925a34f7c.mockapi.io/contactame", confgi)).json();
+        formulario.reset();
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: `Usuario ${conexion.nombre}, tu solicituid fue enviada exitosamente. Tique # ${conexion.id}`,
+            showConfirmButton: false,
+            timer: 5000
+          })
+        
+    });
+
 })
